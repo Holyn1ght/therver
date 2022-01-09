@@ -6,10 +6,10 @@ from matplotlib.ticker import (MultipleLocator, FormatStrFormatter,
 from math import *
 from scipy import integrate
 
-R = [2, 8, 11, 5]
-G = [1, 10, 6, 10]
-B = [2, 9, 11, 7]
-RGB = [5, 27, 28, 22]
+R = [1, 8, 11, 9]
+G = [1, 5, 8, 6]
+B = [3, 7, 11, 8]
+RGB = [5, 20, 30, 23]
 RED = R[3]
 ALL = RGB[3]
 NERED = ALL - RED
