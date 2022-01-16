@@ -96,7 +96,7 @@ def Pque(n):
     x = [i for i in range(6, n + 1)]
     y = [Pque1(i) for i in x]
     # y1 = [P0INFW[i] * A[i] * (p / i) / (1 - (p / i)) for i in x]
-    plt.title(f"P оч")  # заголовок
+    plt.title(f"P сущ. оч")  # заголовок
     plt.xlabel("n")  # ось абсцисс
     plt.ylabel("P")  # ось ординат
     plt.grid()  # включение отображение сетки

@@ -199,11 +199,11 @@ for i in pp:
             print(f"Min n for P = {i} is {j}")
             break
 
-plt.title(f"Min n for P(k <= n <= inf)")                  # заголовок
+# plt.title(f"Min n for P(k <= n <= inf)")                  # заголовок
 plt.xlabel("n")                                 # ось абсцисс
 plt.ylabel("P")                                 # ось ординат
 plt.grid()                                      # включение отображение сетки
-plt.plot(x, y)                                  # построение графика
+plt.plot(y, x)                                  # построение графика, в отчете ИСПРАВИТЬ 
 plt.show()
 
 
